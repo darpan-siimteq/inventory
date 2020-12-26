@@ -10,20 +10,21 @@
 </head>
 <body>
 <div class="container">
-    <h2 align="center" >Certified Diamonds</h2>
-
-
-
 
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <?php require_once('./inc/tabs.php') ?>
         </ul>
-    <div style="padding-bottom: 10px;padding-top: 10px;" align="right">
-        <input type="search" class="light-table-filter" data-table="table-info" placeholder="Search">
-    </div>
+        <div style="padding-bottom: 10px;padding-top: 10px;" align="right">
+            <input type="search" class="light-table-filter" data-table="table-info" placeholder="Search">
+        </div>
         <div class="tab-content" id="myTabContent">
             <?php require_once('./inc/tab_pane.php') ?>
         </div>
+
+             <?php require_once('status.php') ?>
+
+            <?php require_once('diamond.php') ?>
+
 
 
 

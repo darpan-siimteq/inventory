@@ -38,7 +38,7 @@ $counter_1 = 0;
     <div class="tab-pane fade <?php echo $counter_1 == 0 ? 'show active' : '' ?>" id="<?php echo $shpkeypan; ?>"
          role="tabpanel" aria-labelledby="<?php echo $shpkeypan; ?>-tab">
 
-        <table class="table table-striped table-info" >
+        <table class="table table-bordered table-info"  >
             <thead>
             <tr>
                 <th>SR No</th>
@@ -49,9 +49,9 @@ $counter_1 = 0;
                 <th>Clr</th>
                 <th>Cla</th>
                 <th>Size</th>
-                <th>Measurement 1</th>
-                <th>Measurement 2</th>
-                <th>Measurement 3</th>
+                <th>Meas. 1</th>
+                <th>Meas. 2</th>
+                <th>Meas. 3</th>
                 <th>Status</th>
             </tr>
             </thead>
